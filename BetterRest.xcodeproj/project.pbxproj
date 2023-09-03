@@ -13,6 +13,7 @@
 		CE4EF45B2AA3A6EE00F67858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF45A2AA3A6EE00F67858 /* ContentView.swift */; };
 		CE4EF45D2AA3A6F000F67858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EF45C2AA3A6F000F67858 /* Assets.xcassets */; };
 		CE4EF4602AA3A6F000F67858 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EF45F2AA3A6F000F67858 /* Preview Assets.xcassets */; };
+		CEF0FBA72AA4DDA400CBD83E /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEF0FBA62AA4DDA400CBD83E /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CE4EF45A2AA3A6EE00F67858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE4EF45C2AA3A6F000F67858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4EF45F2AA3A6F000F67858 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEF0FBA62AA4DDA400CBD83E /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				CE4EF4582AA3A6EE00F67858 /* BetterRestApp.swift */,
 				CE4EF45A2AA3A6EE00F67858 /* ContentView.swift */,
+				CEF0FBA62AA4DDA400CBD83E /* SleepCalculator.mlmodel */,
 				CE0250432AA48144008627F6 /* Learnning Components */,
 				CE4EF45C2AA3A6F000F67858 /* Assets.xcassets */,
 				CE4EF45E2AA3A6F000F67858 /* Preview Content */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF0FBA72AA4DDA400CBD83E /* SleepCalculator.mlmodel in Sources */,
 				CE4EF45B2AA3A6EE00F67858 /* ContentView.swift in Sources */,
 				CE0250452AA48160008627F6 /* DatePickerComponent.swift in Sources */,
 				CE4EF4592AA3A6EE00F67858 /* BetterRestApp.swift in Sources */,
