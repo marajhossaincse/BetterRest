@@ -7,18 +7,21 @@
 
 import SwiftUI
 
-struct DatePicker: View {
+struct DatePickerComponent: View {
     @State private var wakeUp = Date.now
 
     var body: some View {
-       Date
-        DatePicker
-            .labelsHidden()
+        DatePicker(
+            "Select a date",
+            selection: $wakeUp,
+            displayedComponents: .date
+        )
+//            .labelsHidden()
     }
 }
 
-struct DatePicker_Previews: PreviewProvider {
+struct DatePickerComponent_Previews: PreviewProvider {
     static var previews: some View {
-        DatePicker()
+        DatePickerComponent()
     }
 }

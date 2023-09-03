@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0250452AA48160008627F6 /* DatePickerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0250442AA48160008627F6 /* DatePickerComponent.swift */; };
+		CE0250472AA4825E008627F6 /* StepperComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0250462AA4825E008627F6 /* StepperComponent.swift */; };
 		CE4EF4592AA3A6EE00F67858 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF4582AA3A6EE00F67858 /* BetterRestApp.swift */; };
 		CE4EF45B2AA3A6EE00F67858 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EF45A2AA3A6EE00F67858 /* ContentView.swift */; };
 		CE4EF45D2AA3A6F000F67858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4EF45C2AA3A6F000F67858 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0250442AA48160008627F6 /* DatePickerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerComponent.swift; sourceTree = "<group>"; };
+		CE0250462AA4825E008627F6 /* StepperComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperComponent.swift; sourceTree = "<group>"; };
 		CE4EF4552AA3A6EE00F67858 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4EF4582AA3A6EE00F67858 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
 		CE4EF45A2AA3A6EE00F67858 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0250432AA48144008627F6 /* Learnning Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE0250462AA4825E008627F6 /* StepperComponent.swift */,
+				CE0250442AA48160008627F6 /* DatePickerComponent.swift */,
+			);
+			path = "Learnning Components";
+			sourceTree = "<group>";
+		};
 		CE4EF44C2AA3A6EE00F67858 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			children = (
 				CE4EF4582AA3A6EE00F67858 /* BetterRestApp.swift */,
 				CE4EF45A2AA3A6EE00F67858 /* ContentView.swift */,
+				CE0250432AA48144008627F6 /* Learnning Components */,
 				CE4EF45C2AA3A6F000F67858 /* Assets.xcassets */,
 				CE4EF45E2AA3A6F000F67858 /* Preview Content */,
 			);
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4EF45B2AA3A6EE00F67858 /* ContentView.swift in Sources */,
+				CE0250452AA48160008627F6 /* DatePickerComponent.swift in Sources */,
 				CE4EF4592AA3A6EE00F67858 /* BetterRestApp.swift in Sources */,
+				CE0250472AA4825E008627F6 /* StepperComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
