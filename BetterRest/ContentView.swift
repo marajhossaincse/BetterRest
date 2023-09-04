@@ -17,6 +17,8 @@ struct ContentView: View {
     @State private var alertMessage = ""
     @State private var showAlert = false
 
+    var numberOfCups = Array(1...20)
+
     static var defaultWakeTime: Date {
         var components = DateComponents()
 
@@ -45,9 +47,18 @@ struct ContentView: View {
                 }
 
                 Section {
-                    Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups",
-                            value: $coffeeAmount, in: 1...20)
-                } header: {
+                    Picker("Select number of coffee cups", selection: $coffeeAmount) {
+                        ForEach(numberOfCups, id: \.self) { number in
+                            Text(number == 1 ? "\(number) cup" : "\(number) cups")
+                        }
+                    }
+                    .labelsHidden()
+                    .pickerStyle(MenuPickerStyle())
+
+//                    Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups",
+//                            value: $coffeeAmount, in: 1...20)
+                }
+            header: {
                     Text("Daily coffee intake")
                         .font(.headline)
                 }
